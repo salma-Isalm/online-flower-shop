@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section */
+
+.flower{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding-top: 60px;
+    padding-left: 70px;
+}
+.flower-header{
+padding-left: 20px;
+margin-top: 10px;
+margin-right: 30px;
+}
+#flower-extra-design{
+    padding-left: 30px;
+    padding-top: 130px;
+}
+.flower-header-title{
+    color: #272727;
+font-size: 60px;
+font-weight: 800;
+}
+.flower-header-driscription{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.btn-primary{
+    color: #FFF;
+font-size: 16px;
+border: 2px #e55473;
+border-radius: 8px;
+background: #E55473;
+padding: 20px 45px;
+}
+#flower-design{
+    margin-left: 20px;
+}
+/* main section styles */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
