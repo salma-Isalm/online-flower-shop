@@ -176,4 +176,16 @@ font-weight: 800;
     text-align: start;
     margin-right: 5px;
 }
-
+.tt{
+    color: white;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+}
+.clr{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+}
