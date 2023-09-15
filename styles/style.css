@@ -37,10 +37,31 @@ border-radius: 8px;
 background: #E55473;
 padding: 20px 45px;
 }
+
+.btn{
+    color: tomato;
+    font-size: 16px;
+    border: 2px rgba(229, 84, 115, 0.10);
+    border-radius: 10px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 17px 40px;
+}
 #flower-design{
     margin-left: 20px;
 }
 /* main section styles */
+
+/* dalivary section styles */
+.dalivary {
+    display: flex;
+    /* margin-top: 190px; */
+}
+.delivary-box{
+    margin-top: 130px;
+    padding: 60px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+border-radius: 20%;}
 .same{
     width: 1140px;
     margin: 0 auto;
