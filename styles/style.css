@@ -41,7 +41,7 @@ padding: 20px 45px;
     margin-left: 20px;
 }
 /* main section styles */
-main{
+.same{
     width: 1140px;
     margin: 0 auto;
 }
@@ -92,14 +92,15 @@ background: rgba(71, 125, 17, 0.15);
     display: flex;
     margin-top: 140px;
     justify-content: space-around;
-    padding: 60px;
+    padding-top: 60px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    text-align: center;
     
 }
 .flower-icon-box{
-    padding: 15px;
-    text-align: center;
+    padding-bottom: 60px;
+
 }
 /* hot deal section styles */
 
@@ -115,6 +116,12 @@ background: rgba(71, 125, 17, 0.15);
 }
 .hot-deal-box{
     text-align: center;
+    margin-left: 40px;
+    padding-right: 20px;
+}
+.hot-deal-box img{
+    margin-right: 60px;
+    padding-right: 30px;
 }
 #bb{
     margin-top: 100px;
@@ -136,5 +143,37 @@ span{
 font-size: 40px;
 font-weight: 800;
 
+}
+
+/* instragram styles sections */
+.Instagram-flower{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.Instagram-flower img{
+    width: 277px;
+    margin-top: 30px;
+}
+/* latest deal section */
+
+.subscribe{
+    text-align: center;
+}
+.bg{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 110px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+}
+#input{
+    padding-inline: 170px;
+    padding-block: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    text-align: start;
+    margin-right: 5px;
 }
 
