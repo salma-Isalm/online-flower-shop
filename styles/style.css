@@ -218,8 +218,10 @@ font-weight: 400;
     .flower{
         flex-direction: column-reverse;
         padding: 10px;
+        margin-right: 20px;
         
     }
+ 
     .flower-header{
         padding: 0px;
         margin: 0;
@@ -231,6 +233,63 @@ font-weight: 400;
     .btn-primary{
 
     margin-left:55px ;    }
+.dalivary{
+    margin-left: 20px;
+}
+ #del ,
+  .flower-box ,
+  .flower-icon ,
+  .hot-deal,
+  .Instagram-flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        flex-direction: column;
+    }
+    .delivary-box{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 190px;
+    border-radius: 20%;}
+    .same{
+        width: 150px;
+        margin-right: 20px;
+    }
+    #input{
+        padding-inline: 10px;
+        padding-block: 20px;
+    }
+    
+    .our-fatured{
+        width: 100%;
+        flex-wrap: wrap;
+        /* margin-right: 10px; */
+        margin-top: 30px;
+        /* margin-left: 60px; */
+        padding: 20px;
+    }
+    .flower-icon{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .our-fatured-discription, .our-fatured-title{
+        margin-left: 50px;
+        padding: 0px;
+}
+.hot-deal{
+    padding: 0px;
+}
+.bg{
+    background-image: none;
+}
+.subscribe input{
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+footer{
+    margin: 0;
+}
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .flower{
